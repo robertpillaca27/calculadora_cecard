@@ -33,7 +33,7 @@ h2 {
         2px -2px 0 black, 
         -2px  2px 0 black, 
         2px  2px 0 black;
-    font-size: clamp(20px, 5vw, 24px); /* Tamaño de fuente responsivo */
+    font-size: clamp(20px, 5vw, 24px);
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ select, input, button {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: clamp(14px, 4vw, 16px); /* Tamaño de fuente responsivo */
+    font-size: clamp(14px, 4vw, 16px);
 }
 
 button {
@@ -73,7 +73,7 @@ th, td {
     border: 2px solid #c795ce;
     text-align: center;
     border-radius: 5px;
-    font-size: clamp(12px, 3vw, 14px); /* Tamaño de fuente responsivo */
+    font-size: clamp(12px, 3vw, 14px);
 }
 
 th {
@@ -93,7 +93,6 @@ th {
     margin: 0 auto 20px auto;
 }
 
-/* Media Queries para dispositivos pequeños */
 @media (max-width: 600px) {
     body {
         padding: 10px;
@@ -104,12 +103,12 @@ th {
     }
 
     h2 {
-        font-size: clamp(18px, 6vw, 22px); /* Ajuste para móviles */
+        font-size: clamp(18px, 6vw, 22px);
     }
 
     select, input, button {
         padding: 8px;
-        font-size: clamp(12px, 4vw, 14px); /* Ajuste para móviles */
+        font-size: clamp(12px, 4vw, 14px); 
     }
 
     .logo {
@@ -118,11 +117,10 @@ th {
 
     th, td {
         padding: 8px;
-        font-size: clamp(10px, 3vw, 12px); /* Ajuste para móviles */
+        font-size: clamp(10px, 3vw, 12px); 
     }
 }
 
-/* Media Queries para dispositivos muy pequeños (ej. móviles antiguos) */
 @media (max-width: 400px) {
     h2 {
         font-size: clamp(16px, 5vw, 20px);
